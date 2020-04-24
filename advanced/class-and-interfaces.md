@@ -73,7 +73,7 @@ interface LightableAlarm extends Alarm {
 }
 ```
 
-这很好理解，`LightableAlarm` 继承了 `Alarm`，除了拥有 `alert` 方法之外，还拥有两个新方法 `lightOn` 和 `lightOff`。
+这很好理解，`LightableAlarm` 继承了 `Alarm`，除了拥有`lightOn` 和 `lightOff` 两个方法之外，还拥有新方法 `alert`。
 
 ## 接口继承类
 
